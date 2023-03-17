@@ -39,9 +39,7 @@ body{
 }
 /*Header*/
 .cv__header{
-    
-    /* width: 132px;
-    height: 76px; */
+    width: 180px;
     padding: 24px 16px 16px 22px;
 }
 .cv__header-image{
@@ -90,10 +88,6 @@ body{
     justify-content:baseline ;
     word-break: break-word;
 }
-.cv__mail-image{
-    width: 16px;
-    height: 16px;
-}
 .cv__text{
     display: block;
 }
@@ -108,6 +102,7 @@ body{
     line-height: 8px;
     font-size: 6px;
     color: var(--gray-default);
+    margin-bottom: -5px;
 }
 
 .cv__text-email-com,
@@ -121,45 +116,129 @@ body{
     line-height: 9px;
     color: var(--gray-dark);
 }
-
+/*Đường kẻ*/
+.driver{
+    box-sizing: border-box;
+    width: 132px;
+    border: 1px solid #E2E6EE;
+    margin: 0 auto;
+}
 /*Socials*/
 .cv__socials{
     padding: 16px 20px 16px 22px;
+    width: 180px;
 }
 .cv__socials-title{
     display: block;
-    font-family: 'DM Sans';
+    font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 400;
-    font-size: 6px;
+    font-size: 9px;
     line-height: 8px;
     color: var(--gray-default);
     margin-bottom: 10px;
 }
 .cv__socials-row{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 10px;
 }
+
 .cv__ig,
 .cv__git,
 .cv__twit,
 .cv__link{
     display: flex;
-    font-family: 'DM Sans';
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    color: var(--gray-default);
+    margin-bottom: -5px;
+    
+}
+.cv__ig-name,
+.cv__git-name,
+.cv__twit-name,
+.cv__link-name{
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9px;
+    text-decoration: none;
+    color: var(--gray-dark);
+}
+
+/*Language*/
+.cv__language{
+    width: 180px;
+    padding: 16px 20px 16px 24px;
+}
+.cv__hobbies-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+.cv__language-title{
+    display: block;
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 8px;
+    color: var(--gray-default);
+    margin-bottom: 13.5px;
+}
+.cv__language-row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    column-gap: 8px;
+    margin-bottom: 10px;
+}
+.cv__language-name{
+    display: flex;
+    font-family: var(--gray-dark);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9px;
+    margin-bottom: -5px;
+}
+.cv__language-names{
+    font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 400;
     font-size: 6px;
     line-height: 8px;
     color: var(--gray-default);
 }
-.cv__ig-name,
-.cv__git-name,
-.cv__twit-name,
-.cv__link-name{
-    font-family: 'DM Sans';
+
+/*Hobiies*/
+.cv__hobbies{
+    width: 180px;
+    padding: 16px 20px 16px 24px;
+}
+.cv__hobbies-title{
+    display: block;
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 8px;
+    color: var(--gray-default);
+    margin-bottom: 10px;
+}
+.cv__hobbies-text{
+    font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
     font-size: 7px;
     line-height: 9px;
-    text-decoration: none;
     color: var(--gray-dark);
 }
