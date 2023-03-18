@@ -17,19 +17,23 @@ body{
     padding: 10px 10px;
 }
 .cv{
-    background: red;
+    background: white;
     width: 100%;
     max-width: 594px;
     height: 100%;
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 .cv__aside{
     background-color: var(--gray2);
     width: 176px;
     height: 842px;
+    
+}
+.cv__container{
+    width: 418px;
 }
 .cv__left{
     width: 180px;
@@ -241,4 +245,9 @@ body{
     font-size: 7px;
     line-height: 9px;
     color: var(--gray-dark);
+}
+
+/*Right*/
+.cv__right{
+    padding: 32px 24px 3px 16px;
 }
