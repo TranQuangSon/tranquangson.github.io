@@ -11,6 +11,7 @@
     --gray-darker: #2E2E48;
     --gray-dark: #47516B;
     --gray-default: #79819A;
+    --iris: #5D5FEF
 
 }
 body{
@@ -250,4 +251,65 @@ body{
 /*Right*/
 .cv__right{
     padding: 32px 24px 3px 16px;
+}
+/*Education*/
+.cv__education-title{
+    display: block;
+    font-family: var(--font-outfit);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+.cv__education-card{
+    width: 114.67px;
+    height: 79.07px;
+    background-color: var(--gray2);
+}
+.cv__education-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px 0px;
+    flex-wrap: nowrap;
+}
+.cv__education-name{
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 8px;
+}
+.cv__education-text{
+    margin: 4px 12px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cv__education-text-1{
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9px;
+    color: var(--gray-darker);
+}
+.cv__education-time{
+    font-family: var(--font-dmsans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 7px;
+    color: var(--gray-default);
+}
+.cv__education-text-2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    color: var(--iris);
 }
