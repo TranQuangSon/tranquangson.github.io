@@ -11,8 +11,8 @@
     --gray-darker: #2E2E48;
     --gray-dark: #47516B;
     --gray-default: #79819A;
-    --iris: #5D5FEF
-    --primary-dark: #5531A7
+    --iris: #5D5FEF;
+    --primary-dark: #5531A7;
 }
 body{
     padding: 10px 10px; 
