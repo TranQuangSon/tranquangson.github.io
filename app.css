@@ -352,11 +352,15 @@ body{
     gap: 8px;
     align-self: stretch;
 }
+img.cv__education-photo {
+    width: 40px;
+    /* height: 30px; */
+}
 .cv__education-name{
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
-    font-size: 6px;
+    font-size: 8px;
     line-height: 8px;
 }
 .cv__education-text{
@@ -364,7 +368,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1px;
+    gap: 5px;
     align-self: stretch;
 }
 .cv__education-text-1{
@@ -549,6 +553,10 @@ body{
     padding: 8px;
     gap: 4px;
     border-radius: 4px 0px 0px 0px;
+}
+img.cv__skill-photo {
+    width: 25px;
+    height: 25px;
 }
 .cv__skill-cards{
     width: 66px;
