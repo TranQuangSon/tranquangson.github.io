@@ -1,0 +1,34 @@
+/* Mobile */
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+    body {
+        padding: 0;
+    }
+    .cv {
+        width: 100%;
+    }
+    .cv__aside {
+        max-width: 35%;
+    }
+    .cv__header-name {
+        font-size: 12px;
+    }
+    .cv__introduce-text {
+        font-size: 6px;
+        text-align: justify;
+    }
+    .cv__container {
+        max-width: 65%;
+    }
+    .cv__right {
+        max-width: 100%;
+    }
+    .cv__achievement-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .cv__skill-stack {
+        flex-wrap: wrap;
+    }
+}
