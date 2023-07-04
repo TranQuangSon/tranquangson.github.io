@@ -141,6 +141,12 @@ body{
     line-height: 8px;
     color: var(--gray-default);
 }
+.cv__socials-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
 .cv__socials-row{
     display: flex;
     flex-direction: row;
@@ -185,7 +191,7 @@ body{
 
 /*Language*/
 .cv__language{
-    padding: 16px 20px 16px 24px;
+    padding: 20px 20px 20px 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -206,7 +212,7 @@ body{
 .cv__language-row{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     column-gap: 8px;
     
 }
@@ -302,6 +308,12 @@ body{
 }
 .cv__divider-awards {
     height: 80px;
+    width: 1px;
+    border: 1px solid #E2E6EE;
+    margin: 0 auto;
+}
+.cv__divider-skill {
+    height: 170px;
     width: 1px;
     border: 1px solid #E2E6EE;
     margin: 0 auto;
@@ -545,7 +557,7 @@ body{
     margin-bottom: 4px;
 }
 .cv__skill-card{
-    width: 100%;
+    width: 82px;
     background-color: var(--gray2);
     display: flex;
     flex-direction: column;
@@ -556,7 +568,7 @@ body{
     border-radius: 4px 0px 0px 0px;
 }
 .cv__skill-photo {
-    width: 10%;
+    width: 25px;
 }
 /* .cv__skill-cards{
     width: 66px;
@@ -675,7 +687,7 @@ body{
 .cv__awards-section {
     display: flex;
     width: 345px;
-    /* padding: 0px 0px 24px 0px; */
+    padding: 0px 0px 24px 0px;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;

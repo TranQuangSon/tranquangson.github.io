@@ -15,12 +15,45 @@
     .cv__introduce-text {
         font-size: 6px;
         text-align: justify;
+        padding: 18px;
     }
+    .cv__infos {
+        padding: 18px 14px 16px;
+        line-height: 20px;
+    }
+    .cv__infos-row {
+        flex-direction: column;
+    }
+    .cv__text {
+        align-items: center;
+    }
+    .cv__socials {
+        padding: 16px 14px;
+        line-height: 20px;
+    }
+    .cv__socials-list,
+    .cv__socials-text {
+        align-items: center;
+    }
+    .cv__socials-row {
+        flex-direction: column;
+    }
+    .cv__hobbies {
+        padding: 16px 20px 98px 24px;
+    }
+
+    
     .cv__container {
         max-width: 65%;
     }
     .cv__right {
         max-width: 100%;
+    }
+    .cv__education-section,
+    .cv__achievement-section,
+    .cv__skill-section,
+    .cv__latest-section {
+        padding: 0 0 14px 0;
     }
     .cv__achievement-card {
         display: flex;
@@ -28,7 +61,21 @@
         width: 100%;
         gap: 10px;
     }
+    .cv__divider-skill {
+        height: 300px;
+    }
+    .cv__skill-card {
+        width: 100%;
+    }
     .cv__skill-stack {
         flex-wrap: wrap;
     }
+    .cv__awards-section {
+        width: 100%;
+        padding: 0;
+    }
+    .cv__awards-list {
+        padding: 0;
+    }
+    
 }
