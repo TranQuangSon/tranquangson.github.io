@@ -6,47 +6,47 @@
     .cv {
         width: 100%;
     }
-    .cv__aside {
+    .aside {
         width: 35%;
     }
-    .cv__header-name {
+    .header__name {
         font-size: 12px;
     }
-    .cv__introduce-text {
+    .introduce__text {
         font-size: 6px;
         text-align: justify;
         padding: 18px;
     }
-    .cv__infos {
+    .aside__infos {
         padding: 18px 14px 16px;
         line-height: 20px;
     }
-    .cv__infos-row {
+    .infos__row {
         flex-direction: column;
     }
-    .cv__text {
+    .infos__text {
         align-items: center;
     }
-    .cv__socials {
+    .aside__socials {
         padding: 16px 14px;
         line-height: 20px;
     }
-    .cv__socials-list,
-    .cv__socials-text {
+    .socials__list,
+    .socials__text {
         align-items: center;
     }
-    .cv__socials-row {
+    .socials__row {
         flex-direction: column;
     }
-    .cv__hobbies {
+    .aside__hobbies {
         padding: 16px 20px 96px 24px;
     }
 
     
-    .cv__container {
+    .container {
         width: 65%;
     }
-    .cv__right {
+    .container__right {
         width: 100%;
     }
     .cv__education-section,

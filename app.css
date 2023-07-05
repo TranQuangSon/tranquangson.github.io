@@ -28,26 +28,26 @@ body {
     justify-content: center;
     /* align-items: center; */
 }
-.cv__aside {
+.aside {
     background-color: var(--gray2);
     width: 22%;
     height: 100%;
 }
-.cv__left {
+.aside__left {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 /*Header*/
-.cv__header {
+.aside__header {
     width: 100%;
     padding: 24px 16px 16px 22px;
 }
-.cv__header-image {
+.header__image {
     margin-bottom: 8px;
 }
-.cv__header-name {
+.header__name {
     display: block;
     font-family: var(--font-outfit);
     font-weight: 500;
@@ -57,12 +57,12 @@ body {
     color: var(--gray-darker);
 }
 /*Introdace*/
-.cv__introduce {
+.aside__introduce {
     display: block;
     /* width: 132px;
     height: 60px; */
 }
-.cv__introduce-text {
+.introduce__text {
     color: var(--gray-dark);
     font-size: 9px;
     padding: 16px 10px 16px 24px;
@@ -71,14 +71,14 @@ body {
     line-height: 12px;
 }
 /*Infos*/
-.cv__infos {
+.aside__infos {
     padding: 18px 20px 16px 22px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
 }
-.cv__infos-row {
+.infos__row {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -86,7 +86,7 @@ body {
     align-self: stretch;
     word-break: break-word;
 }
-.cv__text {
+.infos__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -94,10 +94,10 @@ body {
     flex: 1 0 0;
     
 }
-.cv__text-email,
-.cv__text-web,
-.cv__text-phone,
-.cv__text-address {
+.text__email,
+.text__web,
+.text__phone,
+.text__address {
     display: flex;
     font-family: var(--font-dmsans);
     font-weight: 400;
@@ -106,10 +106,10 @@ body {
     font-size: 6px;
     color: var(--gray-default);
 }
-.cv__text-email-com,
-.cv__text-web-com,
-.cv__text-phone-com,
-.cv__text-address-com {
+.text__email-address,
+.text__web-link,
+.text__phone-number,
+.text__address-com {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
@@ -125,14 +125,14 @@ body {
     margin: 0 auto;
 }
 /*Socials*/
-.cv__socials {
+.aside__socials {
     padding: 16px 20px 16px 22px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
-.cv__socials-title {
+.socials__title {
     display: block;
     font-family: var(--font-dmsans);
     font-style: normal;
@@ -141,33 +141,32 @@ body {
     line-height: 8px;
     color: var(--gray-default);
 }
-.cv__socials-list {
+.socials__list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
-.cv__socials-row {
+.socials__row {
     display: flex;
     flex-direction: row;
     align-items: center;
     word-break: break-word;
     column-gap: 8px;
 } 
-.cv__socials-photo {
+.socials__photo {
     width: 14px;
     height: 14px;
 }
-.cv__socials-text {
+.socials__text {
     display: flex;
     flex-direction: column;
     gap: 2px;
     flex: 1 0 0;
 }
-.cv__ig,
-.cv__git,
-.cv__twit,
-.cv__link {
+.socials__zalo,
+.socials__git,
+.socials__facebook {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 400;
@@ -176,10 +175,9 @@ body {
     color: var(--gray-default);
     
 }
-.cv__ig-name,
-.cv__git-name,
-.cv__twit-name,
-.cv__link-name {
+.socials__zalo-name,
+.socials__git-name,
+.socials__facebook-name {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
@@ -190,7 +188,7 @@ body {
 }
 
 /*Language*/
-.cv__language {
+.aside__language {
     padding: 20px 20px 20px 24px;
     display: flex;
     flex-direction: column;
@@ -199,7 +197,7 @@ body {
     align-self: stretch;
 }
 
-.cv__language-title {
+.language__title {
     display: block;
     font-family: var(--font-dmsans);
     font-style: normal;
@@ -209,21 +207,21 @@ body {
     color: var(--gray-default);
     
 }
-.cv__language-row {
+.language__row {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 8px;
     
 }
-.cv__language-text {
+.language__text {
     display: flex;
     flex-direction: column;
     gap: 2px;
     align-items: flex-start;
     flex: 1 0 0;
 }
-.cv__language-name {
+.language__name {
     font-family: var(--gray-dark);
     font-style: normal;
     font-weight: 500;
@@ -231,7 +229,7 @@ body {
     line-height: 9px;
     
 }
-.cv__language-names {
+.language__level {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 400;
@@ -241,7 +239,7 @@ body {
 }
 
 /*Hobiies*/
-.cv__hobbies {
+.aside__hobbies {
     padding: 16px 20px 16px 24px;
     display: flex;
     flex-direction: column;
@@ -249,7 +247,7 @@ body {
     gap: 8px;
     align-self: stretch;
 }
-.cv__hobbies-title {
+.hobbies__title {
     display: block;
     font-family: var(--font-dmsans);
     font-style: normal;
@@ -258,13 +256,13 @@ body {
     line-height: 8px;
     color: var(--gray-default);
 }
-.cv__hobbies-row {
+.hobbies__row {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 8px;
 }
-.cv__hobbies-text {
+.hobbies__text {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
@@ -274,7 +272,7 @@ body {
 }
 
 /* Container */
-.cv__container {
+.container {
     width: 50%;
     height: 100%;
     padding: 32px 10px 35px 16px;
@@ -282,7 +280,7 @@ body {
     align-items: flex-start;
 }
 /*Right*/
-.cv__right {
+.container__right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -320,13 +318,13 @@ body {
     margin: 0 auto;
 }
 /*Education*/
-.cv__education {
+.container__education {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
 }
-.cv__education-section {
+.education__section {
     display: flex;
     padding: 0px 0px 24px 0px;
     flex-direction: column;
@@ -334,7 +332,7 @@ body {
     gap: 16px;
     flex: 1 0 0;
 }
-.cv__education-title {
+.education__title {
     display: block;
     font-family: var(--font-outfit);
     font-style: normal;
@@ -342,18 +340,18 @@ body {
     font-size: 12px;
     line-height: 16px;
 }
-.cv__education-content {
+.education__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.cv__education-stack {
+.education__stack {
     display: flex;
     align-items: flex-start;
     gap: 4px;
     align-self: stretch;
 }
-.cv__education-card {
+.education__card {
     display: flex;
     padding: 8px 12px;
     flex-direction: column;
@@ -364,24 +362,24 @@ body {
     border-radius: 4px 0px 0px 4px;
     background-color: var(--gray2);
 }
-.cv__education-image {
+.card-edu__image {
     display: flex;
     align-items: center;
     gap: 8px;
     align-self: stretch;
 }
-.cv__education-photo {
+.card-edu__photo {
     width: 40px;
     /* height: 30px; */
 }
-.cv__education-name {
+.card-edu__name {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
     font-size: 8px;
     line-height: 8px;
 }
-.cv__education-text {
+.card__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -389,7 +387,7 @@ body {
     gap: 5px;
     align-self: stretch;
 }
-.cv__education-text-1 {
+.text__major {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 500;
@@ -397,7 +395,7 @@ body {
     line-height: 9px;
     color: var(--gray-darker);
 }
-.cv__education-time {
+.text__time {
     font-family: var(--font-dmsans);
     font-style: normal;
     font-weight: 400;
@@ -405,7 +403,7 @@ body {
     line-height: 7px;
     color: var(--gray-default);
 }
-.cv__education-text-2 {
+.text__grade {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -415,7 +413,7 @@ body {
 }
 
 /*Achievenment*/
-.cv__achievement {
+.aside__achievement {
     font-family: var(--font-dmsans);
     font-style: normal;
     display: flex;
@@ -423,7 +421,7 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
-.cv__achievement-section {
+.achievement__section {
     display: flex;
     padding: 0px 0px 24px 0px;
     flex-direction: column;
@@ -431,7 +429,7 @@ body {
     gap: 16px;
     flex: 1 0 0;
 }
-.cv__achievement-title {
+.achievement__title {
     font-family: var(--font-outfit);
     display: block;
     font-weight: 500;
@@ -439,12 +437,12 @@ body {
     line-height: 16px;
     color: var(--gray-darker);
 }
-.cv__achievement-content {
+.achievement__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.cv__achievement-card {
+.achievement__card {
     display: flex;
     padding: 3px 0px 8px 0px;
     justify-content: center;
@@ -452,70 +450,72 @@ body {
     gap: 4px;
     flex: 1 0 0;
 }
-.cv__achievement-name {
+.card-achi__name {
     width: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
 }
-.cv__achievement-date {
+.name__date {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     gap: 4px;
 }
-.cv__achievement-online img {
-    width: 6px;
-    height: 6px;
-}
-.cv__achievement-online {
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    align-self: flex-start;
-}
-.cv__achievement-date-time {
+.date__time {
     font-weight: 400;
     font-size: 5px;
     line-height: 7px;
     letter-spacing: 0.05px;
     color: var(--gray-dark);
 }
-.cv__achievement-company {
+.date__online img {
+    width: 6px;
+    height: 6px;
+}
+.date__online {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    align-self: flex-start;
+}
+.online__text {
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 7px;
+}
+
+.name__company {
     display: flex;
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;
 }
-.cv__achievement-photo-git {
+.company__photo-git{
     width: 20px;
     /* height: 15px; */
 }
-.cv__achievement-text {
+.company__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
     flex: 1 0 0;
 }
-.cv__online-text {
-    font-weight: 400;
-    font-size: 5px;
-    line-height: 7px;
-}
-.cv__achievement-text-1 {
+
+.text__title {
     font-weight: 400;
     font-size: 6px;
     line-height: 8px;
     color: var(--gray-default);
 }
-.cv__achievement-text-2 {
+.text__company {
     font-weight: 500;
     font-size: 7px;
     line-height: 9px;
 }
-.cv__achievement-desc {
+.card-achi__desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
