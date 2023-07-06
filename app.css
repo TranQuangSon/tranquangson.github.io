@@ -413,7 +413,7 @@ body {
 }
 
 /*Achievenment*/
-.aside__achievement {
+.container__achievement {
     font-family: var(--font-dmsans);
     font-style: normal;
     display: flex;
@@ -526,7 +526,7 @@ body {
 }
 
 /*Skill*/
-.cv__skill {
+.container__skill {
     font-family: var(--font-dmsans);
     font-style: normal;
     display: flex;
@@ -534,7 +534,7 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
-.cv__skill-section {
+.skill__section {
     display: flex;
     padding: 0px 0px 24px 0px;
     flex-direction: column;
@@ -542,7 +542,7 @@ body {
     gap: 16px;
     flex: 1 0 0;
 }
-.cv__skill-title {
+.skill__title {
     display: block;
     font-family: var(--font-outfit);
     font-style: normal;
@@ -551,13 +551,13 @@ body {
     line-height: 16px;
 }
 
-.cv__skill-stack,
+.skill__stack,
 .cv__skill-stacks {
     display: flex;
     gap: 4px;
     margin-bottom: 4px;
 }
-.cv__skill-card {
+.skill__card {
     width: 82px;
     background-color: var(--gray2);
     display: flex;
@@ -568,7 +568,7 @@ body {
     gap: 4px;
     border-radius: 4px 0px 0px 0px;
 }
-.cv__skill-photo {
+.card-skill__photo {
     width: 25px;
 }
 /* .cv__skill-cards{
@@ -583,27 +583,27 @@ body {
     gap: 4px;
     border-radius: 4px 0px 0px 0px;
 } */
-.cv__skill-text,
+.card-skill__text,
 .cv__skill-texts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cv__skill-name,
+.text__name,
 .cv__skill-names {
     font-weight: 500;
     font-size: 7px;
     line-height: 9px;
 }
-.cv__skill-name-2,
+.text__description,
 .cv__skill-names-2 {
     font-weight: 400;
     font-size: 5px;
     line-height: 7px;
 }
 /*Latest*/
-.cv__latest {
+.container__latest {
     font-family: var(--font-dmsans);
     font-style: normal;
     display: flex;
@@ -611,7 +611,7 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
-.cv__latest-section {
+.latest__section {
     display: flex;
     padding: 0px 0px 24px 0px;
     flex-direction: column;
@@ -619,19 +619,19 @@ body {
     gap: 16px;
     flex: 1 0 0;
 }
-.cv__latest-title{
+.latest__title{
     display: block;
     font-family: var(--font-outfit);
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
 }
-.cv__latest-content {
+.latest__content {
     display: flex;
     gap: 6px;
     align-items: flex-start;
 }
-.cv__project {
+.latest__project {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -640,43 +640,43 @@ body {
     background-color: var(--gray2);
     border-radius: 4px 0px 0px 4px;
 }
-.cv__project-title {
-    font-weight: 500;
-    font-size: 8px;
-    line-height: 10px;
-}
-.cv__project-content {
+.project__content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 8px;
 }
-.cv__project-text {
+.project__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
 }
-.cv__project-name {
+.text-project__title {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+}
+.text-project__description {
     font-weight: 400;
     font-size: 7px;
     line-height: 9px;
 }
-.cv__project-row {
+.project__row {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 6px;
     align-self: flex-start;
 }
-.cv__project-link {
+.row-project__link {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 8px;
     line-height: 10px;
 }
 /* Awards */
-.cv__awards {
+.container__awards {
     font-family: var(--font-outfit);
     font-style: normal;
     display: flex;
@@ -685,7 +685,7 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
-.cv__awards-section {
+.awards__section {
     display: flex;
     width: 345px;
     padding: 0px 0px 24px 0px;
@@ -693,14 +693,14 @@ body {
     align-items: flex-start;
     gap: 16px;
 }
-.cv__awards-title {
+.awards__title {
     color: var(--gray-darker);
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.12px;
 }
-.cv__awards-list {
+.awards__list {
     display: flex;
     padding: 0px 12px;
     flex-direction: column;
@@ -708,14 +708,14 @@ body {
     gap: 4px;
     align-self: stretch;
 }
-.cv__awards-card {
+.awards__card {
     border-radius: 3.855px 3.855px 0px 0px;
     background-color: var(--gray2);
     padding: 8px 12px;
     display: flex;
     align-items: flex-start;
 }
-.cv__awards-content {
+.card-awards__content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -724,19 +724,19 @@ body {
     align-self: stretch;
     margin: 0px 6px 0px 6px;
 }
-.cv__awards-subtitle {
+.content__subtitle {
     font-size: 6.745px;
     font-family: var(--font-dmsans);
     line-height: 8.673px;
     letter-spacing: 0.067px;
 }
-.cv__awards-name {
+.content__name {
     font-size: 7.709px;
     font-family: var(--font-dmsans);
     font-weight: 500;
     line-height: 9.636px;
 }
-.cv__awards-date-time {
+.card-awards__date-time {
     color: var(--gray-dark);
     font-size: 5.782px;
     font-family: var(--font-dmsans);

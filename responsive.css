@@ -49,13 +49,13 @@
     .container__right {
         width: 100%;
     }
-    .cv__education-section,
-    .cv__achievement-section,
-    .cv__skill-section,
+    .education__section,
+    .achievement__section,
+    .skill__section,
     .cv__latest-section {
         padding: 0 0 14px 0;
     }
-    .cv__achievement-card {
+    .achievement__card {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -64,17 +64,17 @@
     .cv__divider-skill {
         height: 300px;
     }
-    .cv__skill-card {
+    .skill__card {
         width: 100%;
     }
-    .cv__skill-stack {
+    .skill__stack {
         flex-wrap: wrap;
     }
-    .cv__awards-section {
+    .awards__section {
         width: 100%;
         padding: 0;
     }
-    .cv__awards-list {
+    .awards__list {
         padding: 0;
     }
     
